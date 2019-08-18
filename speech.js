@@ -10,7 +10,7 @@ const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogni
 const recognition = new SpeechRecognition();
 
 recognition.onstart = function() {
-    console.log('Voice recognition is activated, now you cant talk!');
+    console.log('Voice recognition is activated, now you can talk!');
 }
 
 recognition.onresult = function(event) {
